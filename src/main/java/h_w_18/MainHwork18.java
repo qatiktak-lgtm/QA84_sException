@@ -126,7 +126,7 @@ public class MainHwork18 {
     // Task#3
     //ar-> ["2.4"]["7.8"]["6.1"]["-2.3"]["9.4"]
     public static double findParseSum(String[] ar, int index1, int index2)
-            //throws NullPointerException, ArrayIndexOutOfBoundsException, IllegalArgumentException  - это можно убрать, Java всё равно позволит бросать throw
+            // hrows NullPointerException, ArrayIndexOutOfBoundsException, IllegalArgumentException  - это можно убрать, Java всё равно позволит бросать throw
     {
         if (ar == null) {
             throw new NullPointerException("Array is null or cell is null");
